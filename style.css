@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-image: linear-gradient(#3498db5e, rgba(191, 26, 224, 0.144)), url(img/imagen\ de\ portada\ principal.webp);
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: chocolate;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+    color: rgb(247, 247, 247)
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: coral;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-1:hover {
+    background-color: rgb(234, 166, 139);
+}
+
+.Historia {
+    padding: 100px 0;
+    background-color: #f4f4f4;
+}
+
+.historia-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.historia-img {
+    max-width: 400px;
+    flex: 1;
+}
+
+.text-content {
+    flex: 2;
+}
+
+.text-content h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.text-content img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.text-content .txt-p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.coffee-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.coffee-1 {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.coffee-1 h3 {
+    font-size: 28px;
+    color: #bb1818;
+    margin-bottom: 15px;
+}
+
+.coffee-1 img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.services {
+    padding: 90px 0;
+    background-image: linear-gradient(rgba(166, 21, 21, 0.7), rgba(15, 14, 14, 0.7)), url('Img/historia-img-principal.jpg');
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.services-content {
+    text-align: center;
+}
+
+.services-content h2 {
+    font-size: 55px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.services-content p {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.services-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.service-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.service-item h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.general {
+    padding: 100px 0;
+    background-color: #f4f4f4;
+}
+
+.general-1 {
+    background-color: #cc9d9d;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    
+    
+
+    
+}
+
+.general .services-group {
+    flex-direction: column;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    
+    text-align: center;
+    f
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.link h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.link ul {
+    padding: 0;
+}
+
+.link ul li a {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.link ul li a:hover {
+    color: coral;
+}
